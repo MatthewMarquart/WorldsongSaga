@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
+	</style>
+  <title>The Worldsong Saga</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!--template css-->
+  <link rel="stylesheet" href="appStyle.css">
+	<!--My own css-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: antiquewhite;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <img src="eyeofsokopin.png" alt="The Eye of Sokopin" class="navbar-brand">
+	  <a class="navbar-brand">The Worldsong Saga</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="Creation.html">Creation</a></li>
+        <li><a href="Resources.html">Resources</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <div class="search-container nav navbar-nav navbar-right">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+      </ul>
+    </div>
+  </div>
+</nav>
+      
+<div class="container-fluid text-center">    
+  <div>
+    <div class="col-sm-2 sidenav leftbar onhover" style="padding:0">
+		<!--here I override the external template css with the padding style to make the on hover change go across the entire element, since I can't actually edit the linked template css-->
+		<h4>Recent Changes</h4>
+		<!--I'd like for this to automatically update when I add things but that is far beyond my skill, so I'll just keep it up to date myself.-->
+		<p><a href="Althus.html">Althus the Enchantress</a></p>
+      <p><a href="Gods.html">Gods</a></p>
+      <p><a href="Contact.html">Contact</a></p>
+	  <p><a href="Creation.html">Creation</a></p>
+      <p><a href="Artifacts.html">Artifacts</a></p>
+      <p><a href="Lore.html">Lore</a></p>
+    </div>
+    <div class="col-sm-8 text-left bodydesign" style="padding-left:0 padding-right:0"> 
+      <h1 style="text-align: center">Eras of History</h1>
+		<h2>Before History</h2>
+      <p>The Age of Creation. Before Recorded History, with no clear representation of time.  Rumors of a war between dragons and giants which tore the continents apart. Magic was much more primal, common and powerful.</p>
+		<h2>The First Era</h2>
+      <p>Introduction of the races, and emergence of the first great humanoid civilizations and the start of recorded history. The focused study of magic became more commonplace, leading to an increase in the number of wizards, clerics, etc. Ended with the eruption of Mount Kadrel, starting the Great Winter.</p>
+		<h2>The Second Era</h2>
+      <p>Begins at the time of the Great Winter, which lasted almost a century, and brought a great darkness upon Kaerin-Anidor. Southern parts of the world such as Okarthel and the south of Anidor remained largely unaffected. Starvation and famine led to the fall of the one ancient human civilization, the Hulderic Empire. Great beasts rose amidst this cataclysm and the once great civilization of the north became a wild land of magical beasts. The Hulderic Empire breaks apart and the civilization is lost, resurfacing as a number of smaller civilizations in later years. Small wars between the races were common. The amount of arcane magic and divine magic in the world is balanced. Ends with the formation of the first formal Churches dedicated to the gods.</p>
+		<h2>The Third Era</h2>
+      <p>First formation of large religions following gods of the main pantheon as arcane magic began to wane in the presence of this divine power. Small human nations begin to form new empires after the Ruin of Huldera. Early in this era, following the corruption of what would come to be called the Ba’Taure Wastes, many elves left for the Feywild, while others stayed behind. These would become the elves of Ithyll and Anor. The first king of Dahndur drove the beasts of north back and settled Kaerin once again, however the kingdom of Dahndur never rose to full power, and was overshadowed by other civilizations. It was during this time that the three human nations, the Merdunni Empire, Trenton Conclave, and The Land of Calista, began to form.</p>
+		<h2>The Fourth Era</h2>
+		<p>Began with a surge of arcane magic returning to the world, and with it an increase in the number of sorcerers and warlocks. Wild magic surges, localized climate changes, earthquakes and demon attacks in the world increased substantially for a period of a few years due to unknown circumstances. After that period, arcane magic returned to natural levels.</p>
+		
+      
+    </div>
+    <div class="col-sm-2 sidenav rightbar onhover" style="padding:0">
+		<h4>Navigation</h4>
+
+		<p><a href="PlotSummary.html">Plot Summary</a></p>
+      <p><a href="Players.html">Players</a></p>
+      <p><a href="Characters.html">Characters</a></p>
+	  <p><a href="Lore.html">Lore</a></p>
+      <p><a href="Artifacts.html">Artifacts</a></p>
+      <p><a href="Gods.html">Gods</a></p>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center footer">
+  <p>Copyright 2018 Matthew Marquart All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
